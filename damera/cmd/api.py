@@ -11,6 +11,7 @@ from damera import version
 from damera.i18n import _LI
 from damera.api import app as api_app
 from damera.common import service
+from damera.object import base
 
 LOG = logging.getLogger(__name__)
 
@@ -19,7 +20,7 @@ def main():
     service.prepare_service(sys.argv)
     gmr.TextGuruMeditation.setup_autorun(version)
 
-    #base.MagnumObject.indirection_api = base.MagnumObjectIndirectionAPI()
+    base.DameraObject.indirection_api = base.DameraObjectIndirectionAPI()
 
     app = api_app.load_app()
     host, port = cfg.CONF.api.host, api.CONF.api.port
