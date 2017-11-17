@@ -122,7 +122,8 @@ class Disk(Base):
 
     id = Column(Integer, primary_key=True)
     project_id = Column(String(255))
-    
+    user_id = Column(String(255))
+    uuid = Column(String(36))
 
 
 #
