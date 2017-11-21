@@ -6,7 +6,7 @@
 
 Name:		openstack-%{service}
 Summary:	Container Management project for OpenStack
-Version:	2.0.0
+Version:	0.0.1
 Release:	1%{?dist}
 License:	ASL 2.0
 URL:		https://github.com/openstack/damera.git
@@ -36,55 +36,6 @@ for deploying and managing containers as first class resources in OpenStack.
 
 %package -n python-%{service}
 Summary: Damera Python libraries
-
-Requires: python-babel
-Requires: python-prettytable
-Requires: PyYAML
-Requires: python-sqlalchemy
-Requires: python2-wsme
-Requires: python-webob
-Requires: python-alembic
-Requires: python-decorator
-Requires: python-docker-py
-Requires: python-enum34
-Requires: python-eventlet
-Requires: python-greenlet
-Requires: python-iso8601
-Requires: python-jsonpatch
-Requires: python-keystonemiddleware
-Requires: python-netaddr
-
-Requires: python-oslo-concurrency
-Requires: python-oslo-config
-Requires: python-oslo-context
-Requires: python-oslo-db
-Requires: python-oslo-i18n
-Requires: python-oslo-log
-Requires: python-oslo-messaging
-Requires: python-oslo-middleware
-Requires: python-oslo-policy
-Requires: python-oslo-serialization
-Requires: python-oslo-service
-Requires: python-oslo-utils
-Requires: python-oslo-versionedobjects
-Requires: python-oslo-reports
-
-Requires: python-paramiko
-Requires: python2-pecan
-
-Requires: python-barbicanclient
-Requires: python-glanceclient
-Requires: python-heatclient
-Requires: python-neutronclient
-Requires: python-novaclient
-Requires: python-keystoneclient
-
-Requires: python-requests
-Requires: python-six
-Requires: python-stevedore
-Requires: python-taskflow
-Requires: python-cryptography
-Requires: python-urllib3
 
 
 %description -n python-%{service}
@@ -147,69 +98,6 @@ This package contains documentation files for Damera.
 Summary:          Tests for OpenStack Damera
 
 Requires:        python-%{service} = %{version}-%{release}
-
-BuildRequires:   bandit
-BuildRequires:   python-coverage
-BuildRequires:   python-fixtures
-BuildRequires:   python-hacking
-BuildRequires:   python-mock
-BuildRequires:   python-oslotest
-BuildRequires:   python-os-testr
-BuildRequires:   python-subunit
-BuildRequires:   python-testrepository
-BuildRequires:   python-testscenarios
-BuildRequires:   python-testtools
-BuildRequires:   python-tempest-lib
-
-# copy-paste from runtime Requires
-BuildRequires: python-babel
-BuildRequires: python-prettytable
-BuildRequires: PyYAML
-BuildRequires: python-sqlalchemy
-BuildRequires: python2-wsme
-BuildRequires: python-webob
-BuildRequires: python-alembic
-BuildRequires: python-decorator
-BuildRequires: python-docker-py
-BuildRequires: python-enum34
-BuildRequires: python-eventlet
-BuildRequires: python-greenlet
-BuildRequires: python-iso8601
-BuildRequires: python-jsonpatch
-BuildRequires: python-keystonemiddleware
-BuildRequires: python-netaddr
-
-BuildRequires: python-oslo-concurrency
-BuildRequires: python-oslo-config
-BuildRequires: python-oslo-context
-BuildRequires: python-oslo-db
-BuildRequires: python-oslo-i18n
-BuildRequires: python-oslo-log
-BuildRequires: python-oslo-messaging
-BuildRequires: python-oslo-middleware
-BuildRequires: python-oslo-policy
-BuildRequires: python-oslo-serialization
-BuildRequires: python-oslo-service
-BuildRequires: python-oslo-utils
-BuildRequires: python-oslo-versionedobjects
-BuildRequires: python-oslo-reports
-
-BuildRequires: python-paramiko
-BuildRequires: python2-pecan
-
-BuildRequires: python-barbicanclient
-BuildRequires: python-glanceclient
-BuildRequires: python-heatclient
-BuildRequires: python-neutronclient
-BuildRequires: python-novaclient
-BuildRequires: python-keystoneclient
-
-BuildRequires: python-requests
-BuildRequires: python-six
-BuildRequires: python-stevedore
-BuildRequires: python-taskflow
-BuildRequires: python-cryptography
-BuildRequires: python-urllib3
 
 %description -n python-%{service}-tests
 Damera is an OpenStack project which offers container orchestration engines
