@@ -6,7 +6,7 @@
 
 Name:		openstack-%{service}
 Summary:	Container Management project for OpenStack
-Version:	0.0.1
+Version:	%{?version}
 Release:	1%{?dist}
 License:	ASL 2.0
 URL:		https://github.com/openstack/damera.git
