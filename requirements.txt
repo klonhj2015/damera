@@ -39,7 +39,7 @@ git-review==1.25.0
 greenlet==0.4.12
 html2text==2017.10.4
 http==0.2
-httplib2==0.9.2
+httplib2==0.18.0
 idna==2.6
 ipaddress==1.0.17
 iso8601==0.1.11
