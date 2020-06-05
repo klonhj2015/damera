@@ -21,7 +21,7 @@ cubicweb==3.25.3
 cubicweb-wsme==0.3.0
 debtcollector==1.9.0
 decorator==4.1.2
-Django==1.9.7
+Django==1.11.29
 dogpile.cache==0.6.4
 enum-compat==0.0.2
 enum34==1.1.6
