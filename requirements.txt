@@ -105,7 +105,7 @@ poyo==0.4.1
 prettytable==0.7.2
 psutil==5.4.1
 ptyprocess==0.5.1
-py==1.4.33
+py==1.10.0
 py2app==0.7.3
 pyasn1==0.1.9
 pycadf==2.6.0
