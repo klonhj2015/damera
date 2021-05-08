@@ -25,7 +25,7 @@ Django==1.9.7
 dogpile.cache==0.6.4
 enum-compat==0.0.2
 enum34==1.1.6
-eventlet==0.20.0
+eventlet==0.31.0
 Exscript==2.1.503
 fasteners==0.14.1
 Flask==0.11.1
