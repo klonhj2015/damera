@@ -90,7 +90,7 @@ oslo.service==1.27.0
 oslo.utils==3.31.0
 oslo.versionedobjects==1.29.0
 oslo.vmware==2.23.0
-paramiko==2.0.2
+paramiko==2.10.1
 passlib==1.7.1
 Paste==2.0.3
 PasteDeploy==1.5.2
