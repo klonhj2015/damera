@@ -15,7 +15,7 @@ cfgm-common==0.1.dev0
 chardet==3.0.4
 click==6.6
 contextlib2==0.5.5
-cookiecutter==1.6.0
+cookiecutter==2.1.1
 cryptography==1.6
 cubicweb==3.25.3
 cubicweb-wsme==0.3.0
