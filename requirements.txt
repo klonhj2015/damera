@@ -60,7 +60,7 @@ logilab-mtconverter==0.9.0
 logutils==0.3.5
 lxml==3.6.4
 macholib==1.5.1
-Mako==1.0.4
+Mako==1.2.2
 Markdown==2.6.9
 MarkupSafe==0.23
 matplotlib==1.3.1
